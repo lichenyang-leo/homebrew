@@ -3,6 +3,8 @@
 
 ## 什么是 Homebrew 与 Homebrew Cask
 
+### 相当于macos包管理
+
 Homebrew 是基于 OS X 的套件管理工具，是一个开源的 Ruby 脚本，专门用于快速下载软件。更通俗地讲，Homebrew 类似于一个软件中心，你可以理解成 App Store 或者 Google Play 那样的软件商店，只不过，Homebrew 比前者以及 Mac App Store 来说有着更丰富的资源与更高效的管理，具体会在下文提及。
 
 至于 Homebrew Cask，它是一套建立在 Homebrew 基础之上的 OS X 软件安装命令行工具，是 Homebrew 的扩展。不拿那么多拗口的术语来烦你了，简言之，你完全可以把 Homebrew Cask 当作是 Homebrew 的一部分，你只需要记住，在安装常用软件的过程中，大部分情况下我们只需要使用 Homebrew Cask 就足够了。
@@ -51,5 +53,6 @@ eg: brew cask search google : google是关键词，可以模糊查询
 列出通过homebrew下载的包： brew cask list 
 
 更新homebrew cask : brew cask update
+
 
 
